@@ -1,6 +1,7 @@
 AllowedUsers =  ['Seyi','Mike','Love']
 AllowedPassword = ['passwordSeyi','passwordMike','passwordLove']
 
+print('Welcome to Python bank')
 name = input('What is your name? \n')
 
 if(name in AllowedUsers):
@@ -32,7 +33,7 @@ if(name in AllowedUsers):
 
             elif(SelectedOption == 3):
                complaint_type = input('What issue will you like to report? \n')
-               print('Thank you for contacting us. Your complaint has been received')
+               print('Thank you for contacting us. Your complaints has been received')
                
             else:
                 print('Invalid Option selected, please try again')
